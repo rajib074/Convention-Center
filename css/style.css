@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    position: relative;
+}
+/* this is carosel aria  */
+
+img {
+    max-width: 100%;
+}
+
+.carousel-item {
+    height: 584px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Our package  */
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.packge-section {
+    padding: 50px 0;
+}
+
+.title h2 {
+    padding-bottom: 70px;
+}
+
+.pakege {
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.pakege h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pakege h4 {
+    font-weight: 600;
+}
+
+.pakege p {
+    font-size: 14px;
+}
+
+.pakege li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.pakege li i {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background: rgba(82, 67, 194, 0.1);
+    text-align: center;
+    font-size: 12px;
+}
+
+.pakege .btn {
+    background: rgba(244, 150, 209, 0.1);
+    color: #3F87F5;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.pakege.red {
+    background: #4C0027;
+    position: relative;
+    transform: translateY(-40px);
+}
+
+.pakege.red h2 {
+    color: #fff;
+}
+
+.pakege.red h4 {
+    color: #fff;
+}
+
+.pakege.red p {
+    color: #fff;
+}
+
+.pakege.red li {
+    color: #fff;
+}
+
+.faq {
+    padding: 100px 0;
+}
+/* footer aria  */
+
+footer {
+    background: #0B0D17;
+}
